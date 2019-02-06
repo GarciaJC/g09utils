@@ -3,8 +3,8 @@
 class pbs:
     """It creates sbatch files needed to run Gaussian jobs"""
 
-    def __init__(self,base_name = 'input', walltime = '24:00:00', nodes = 1, task_per_node = '16',
-                 email = 'jcgarcia@anl.gov', ):
+    def __init__(self,base_name = 'input', walltime = '24:00:00', nodes = 1, task_per_node = '36',
+                 email = '', ):
 
         self.walltime = walltime
         self.nodes= nodes
